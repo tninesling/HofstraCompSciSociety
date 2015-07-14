@@ -11,11 +11,11 @@ yellows:
 */
 
 * {
-  
+
   font-family: 'Century Gothic';
 }
 
-/* Navigation bar */
+/* Header */
 .nav-elem {
   font-size: 1.4em;
 }
@@ -120,10 +120,18 @@ body {
 #events {
   background-color: #ffb140;
 }
+
+#events > div > h1 {
+  padding-top: 60px;
+}
+
 .gen-info {
   text-align: center;
   margin: 40px;
-  padding: 60px;
+}
+
+.gen-info > p {
+  font-size: 1.4em;
 }
 
 .responsive-iframe-container {
@@ -132,13 +140,15 @@ body {
   padding-top: 30px;
   height: 0;
   overflow: hidden;
+  border-bottom: solid 1px;
+  margin-bottom: 40px;
 }
 
 .calendar {
   position: absolute;
   height: 100%;
   width: 100%;
-  border: 0;
+  border: solid 1px;
   frameborder: 0;
   scrolling: no;
 }
