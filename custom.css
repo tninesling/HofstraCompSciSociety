@@ -11,13 +11,17 @@ yellows:
 */
 
 * {
-
   font-family: 'Century Gothic';
 }
 
 /* Header */
+.navbar {
+  background-color: white;
+}
+
 .nav-elem {
   font-size: 1.4em;
+  float: left;
 }
 
 .navbar-form {
@@ -44,7 +48,7 @@ yellows:
 /* Main Body */
 body {
   margin: 0;
-  padding: 0;
+  padding: 60px 0 0 0;
 }
 
 /* About Us */
@@ -76,8 +80,17 @@ body {
   margin: 20px;
 }
 
+.eboard-list-wrapper {
+  padding-bottom: 30px;
+}
+
+.eboard-list-wrapper > h3 {
+  padding-bottom: 10px;
+}
+
 .eboard-list > p {
   margin: 5px;
+  margin-bottom: 20px;
   font-size: 1.2em;
 }
 
@@ -87,12 +100,23 @@ body {
 }
 
 #projects > div > h1 {
-  padding: 60px;
+  padding-top: 60px;
 }
 
 .proj {
-  margin: 40px;
-  height: 300px;
+  height: 400px;
+}
+
+#proj1 {
+  padding: 80px 160px;
+}
+
+#proj2 {
+  height: 440px;
+}
+
+#proj3 {
+  padding: 0 200px;
 }
 
 .proj > img {
@@ -109,7 +133,7 @@ body {
 .proj-description {
   display: none;
   position: absolute;
-  top: 25%;
+  top: 30%;
   left: 10%;
   width: 80%;
   height: 250px;
