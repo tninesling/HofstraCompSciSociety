@@ -1,6 +1,9 @@
 $(document).ready(function(){
   // About Us
-
+  $("#eboard-p").hover(function(){
+    $("#eboard-p > h2").fadeToggle(500)
+    $("eboard-p > h3").fadeToggle(500)
+  })
 
   // Project Information/Descriptions
   $("#proj1").hover(function(){

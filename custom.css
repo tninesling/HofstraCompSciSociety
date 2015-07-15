@@ -11,6 +11,7 @@ yellows:
 */
 
 * {
+  border: solid 1px;
   font-family: 'Century Gothic';
 }
 
@@ -72,12 +73,27 @@ body {
 }
 
 .eboard-bio {
+  width: 100%;
+  height: 100%;
   padding: 20px;
   margin-bottom: 60px;
 }
 
 .eboard-bio > * {
   margin: 20px;
+}
+
+.eboard-bio > h2 {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.eboard-bio > h3 {
+  position: absolute;
+  display: none;
+  width: 100px;
+  height: 100px;
 }
 
 .eboard-list-wrapper {
