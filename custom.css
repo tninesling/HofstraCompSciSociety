@@ -11,7 +11,7 @@ yellows:
 */
 
 * {
-  border: solid 1px;
+
   font-family: 'Century Gothic';
 }
 
@@ -72,28 +72,31 @@ body {
   padding: 40px;
 }
 
+.about-container {
+  padding-bottom: 40px;
+}
+
 .eboard-bio {
-  width: 100%;
-  height: 100%;
-  padding: 20px;
-  margin-bottom: 60px;
+  height: 200px;
+  width: 200px;
+  position: relative;
 }
 
 .eboard-bio > * {
-  margin: 20px;
 }
 
-.eboard-bio > h2 {
-  position: relative;
-  width: 100px;
-  height: 100px;
+.front {
+  height: inherit;
+  width: inherit;
+  padding: 30px;
 }
 
-.eboard-bio > h3 {
-  position: absolute;
-  display: none;
-  width: 100px;
-  height: 100px;
+.back {
+  background-color: white;
+  color: #408ad2;
+  height: inherit;
+  width: inherit;
+  padding: 30px;
 }
 
 .eboard-list-wrapper {
