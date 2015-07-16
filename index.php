@@ -69,7 +69,7 @@
 		<!-- CSS Banner -->
 		<section class="hidden-xs hidden-sm" id="banner">
 			<div class="col-md-12">
-				<img class="img-responsive center-block" src="#" alt="CSS Banner">
+				<img class="img-responsive center-block" src="assets/css-banner.png" alt="CSS Banner">
 			</div>
 		</section>
 
@@ -227,7 +227,7 @@
 		<!-- General Event Information -->
 		<section id="events">
 			<div class="row section-label">
-				<h1 data-sr='move 20px'>When we meet</h1>
+				<h1 data-sr='move 20px'>Join Us!</h1>
 			</div>
 			<div class="row">
 				<!-- Event Updates -->

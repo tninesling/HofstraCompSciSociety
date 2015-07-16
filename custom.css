@@ -60,7 +60,18 @@ yellows:
 /* Main Body */
 body {
   margin: 0;
-  padding: 60px 0 0 0;
+  padding: 0;
+}
+
+/* Banner */
+#banner, #banner > div {
+  margin: 0;
+  padding: 0;
+}
+
+#banner > div > img {
+  height: inherit;
+  width: inherit;
 }
 
 /* About Us */
