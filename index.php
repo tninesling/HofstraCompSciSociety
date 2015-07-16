@@ -187,7 +187,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="proj center-block" id="proj1">
-						<img class="proj-img img-responsive center-block" src="CompSciSociety/assets/oculus-rift.jpg" alt="Virtual Tour of Adams Hall">
+						<img class="proj-img img-responsive center-block" src="assets/oculus-rift.jpg" alt="Virtual Tour of Adams Hall">
 						<div class="proj-description">
 							<p>
 								We're working on a Virtual Tour of campus utilizing a VR headset
@@ -200,7 +200,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="proj center-block" id="proj2">
-						<img class="proj-img img-responsive center-block" src="CompSciSociety/assets/code-tag.jpg"	alt="Website Project">
+						<img class="proj-img img-responsive center-block" src="assets/code-tag.jpg"	alt="Website Project">
 						<div class="proj-description">
 							<p>
 								Want to build a website with a great group of people?
@@ -213,7 +213,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="proj center-block" id="proj3">
-						<img class="proj-img img-responsive center-block" src="CompSciSociety/assets/acmw-logo.jpg" alt="She++">
+						<img class="proj-img img-responsive center-block" src="assets/acmw-logo.jpg" alt="She++">
 						<div class="proj-description">
 							<p>
 								Looking to support women in computing? She++ is the place for you!
