@@ -249,7 +249,7 @@
 					<!-- Event Calendar -->
 					<div class="container">
 						<div class="responsive-iframe-container">
-							<iframe src="https://www.google.com/calendar/embed?src=hofstracss%40gmail.com&ctz=America/New_York"></iframe>
+							<iframe class="calendar" src="https://www.google.com/calendar/embed?src=hofstracss%40gmail.com&ctz=America/New_York"></iframe>
 						</div>
 					</div>
 				</div>
