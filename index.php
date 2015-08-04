@@ -180,43 +180,65 @@
 			<div class="row section-label">
 				<h1 data-sr='move 20px'>What we're working on</h1>
 			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<div class="proj center-block" id="proj1">
-						<img class="hidden-xs hidden-sm proj-img img-responsive center-block" src="assets/oculus-rift.jpg" alt="Virtual Tour of Adams Hall">
-						<img class="hidden-md hidden-lg proj-img img-responsive center-block" src="assets/oculus-rift-small.jpg" alt="Virtual Tour of Adams Hall">
-						<div class="proj-description">
-							<p>
-								We're working on a Virtual Tour of campus utilizing a VR headset
-								from Oculus Rift!
-							</p>
+			<div class="hidden-xs hidden-sm">
+				<!-- Medium/Large Screen Layout -->
+				<div class="row">
+					<div class="col-md-12">
+						<div class="proj center-block" id="proj1">
+							<img class="hidden-xs hidden-sm proj-img img-responsive center-block" src="assets/oculus-rift.jpg" alt="Virtual Tour of Adams Hall">
+							<div class="proj-description">
+								<p>
+									We're working on a Virtual Tour of campus utilizing a VR headset
+									from Oculus Rift!
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="proj center-block" id="proj2">
+							<img class="proj-img img-responsive center-block" src="assets/code-tag.jpg"	alt="Website Project">
+							<div class="proj-description">
+								<p>
+									Want to build a website with a great group of people?
+									Our website is an ongoing project!
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="proj center-block" id="proj3">
+							<img class="proj-img img-responsive center-block" src="assets/acmw-logo.jpg" alt="She++">
+							<div class="proj-description">
+								<p>
+									Looking to support women in computing? She++ is the place for you!
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<div class="proj center-block" id="proj2">
-						<img class="proj-img img-responsive center-block" src="assets/code-tag.jpg"	alt="Website Project">
-						<div class="proj-description">
-							<p>
-								Want to build a website with a great group of people?
-								Our website is an ongoing project!
-							</p>
-						</div>
-					</div>
+			<!-- Small Screen Layout -->
+			<div class="proj-list-wrapper visible-xs-block visible-sm-block">
+				<div class="proj-list col-xs-10 col-xs-offset-1">
+					<p>
+						We're working on a Virtual Tour of campus utilizing a VR headset
+						from Oculus Rift!
+					</p>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<div class="proj center-block" id="proj3">
-						<img class="proj-img img-responsive center-block" src="assets/acmw-logo.jpg" alt="She++">
-						<div class="proj-description">
-							<p>
-								Looking to support women in computing? She++ is the place for you!
-							</p>
-						</div>
-					</div>
+				<div class="proj-list col-xs-10 col-xs-offset-1">
+					<p>
+						Want to build a website with a great group of people?
+						Our website is an ongoing project!
+					</p>
+				</div>
+				<div class="proj-list col-xs-10 col-xs-offset-1">
+					<p>
+						Looking to support women in computing? She++ is the place for you!
+					</p>
 				</div>
 			</div>
 		</section>

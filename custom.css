@@ -167,7 +167,7 @@ body {
 }
 
 .proj > p {
-  text-size: 1.4em;
+  font-size: 1.4em;
   display: none;
 }
 
@@ -179,6 +179,18 @@ body {
   width: 80%;
   height: 250px;
   font-size: 2em;
+}
+
+.proj-list-wrapper {
+  padding: 20px 20px 220px 20px;
+}
+
+.proj-list {
+  padding-bottom: 20px;
+}
+
+.proj-list > p {
+  font-size: 1.4em;
 }
 
 /* General Club Info */
