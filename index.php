@@ -79,6 +79,7 @@
 				<div class="row section-label">
 					<h1 data-sr='move 20px'>Who we are</h1>
 				</div>
+				<!-- Medium/Large Screen Layout -->
 				<div class="hidden-xs hidden-sm">
 					<div class="row inner-section-label">
 						<div class="col-md-6 col-md-offset-3">
@@ -95,7 +96,6 @@
 									<div class="back">
 										<h3>Jacqueline Hsu</h3>
 									</div>
-									<!-- <img class="img-responsive img-rounded" src="#" alt="Jacqueline Hsu"> -->
 								</div>
 							</div>
 							<div class="col-md-3">
@@ -106,7 +106,6 @@
 									<div class="back">
 										<h3>Chris Davie</h3>
 									</div>
-									<!-- <img class="img-responsive img-rounded" src="#" alt="Christopher Davie"> -->
 								</div>
 							</div>
 							<div class="col-md-3">
@@ -117,7 +116,6 @@
 									<div class="back">
 										<h3>Amy Topka</h3>
 									</div>
-									<!-- <img class="img-responsive img-rounded" src="#" alt="Amy Topka"> -->
 								</div>
 							</div>
 							<div class="col-md-3">
@@ -128,7 +126,6 @@
 									<div class="back">
 										<h3>Taylor Ninesling</h3>
 									</div>
-									<!-- <img class="img-responsive img-rounded" src="#" alt="Taylor Ninesling"> -->
 								</div>
 							</div>
 						</div>
@@ -144,7 +141,6 @@
 									<div class="back">
 										<h3>Siobhan Stergis</h3>
 									</div>
-									<!-- <img class="img-responsive img-rounded" src="#" alt="Siobhan Stergis"> -->
 								</div>
 							</div>
 							<div class="col-md-3">
@@ -155,12 +151,12 @@
 									<div class="back">
 										<h3>J Blaikie</h3>
 									</div>
-									<!-- <img class="img-responsive img-rounded" src="#" alt="J Blaikie"> -->
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+				<!-- Small Screen Layout -->
 				<div class="eboard-list-wrapper visible-xs-block visible-sm-block">
 					<h3>CSS E-board</h3>
 					<div class="eboard-list">
@@ -187,7 +183,8 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="proj center-block" id="proj1">
-						<img class="proj-img img-responsive center-block" src="assets/oculus-rift.jpg" alt="Virtual Tour of Adams Hall">
+						<img class="hidden-xs hidden-sm proj-img img-responsive center-block" src="assets/oculus-rift.jpg" alt="Virtual Tour of Adams Hall">
+						<img class="hidden-md hidden-lg proj-img img-responsive center-block" src="assets/oculus-rift-small.jpg" alt="Virtual Tour of Adams Hall">
 						<div class="proj-description">
 							<p>
 								We're working on a Virtual Tour of campus utilizing a VR headset
