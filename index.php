@@ -12,7 +12,7 @@
 	<!-- Scripts -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-	<script src="https://cdn.rawgit.com/nnattawat/flip/v1.0.12/dist/jquery.flip.min.js"></script>
+	<script src="https://cdn.rawgit.com/nnattawat/flip/v1.0.16/dist/jquery.flip.min.js"></script>
 	<script src="js/custom-script.js" type="text/javascript"></script>
 	<!-- scrollReveal script at bottom of body -->
 
